@@ -1,0 +1,14 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY counter4b IS
+	PORT(
+		clock	: IN STD_LOGIC;
+		bits	: OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+	);
+END counter4b;
+
+ARCHITECTURE counter OF counter4b IS
+	
+	
+END counter;

@@ -1,0 +1,53 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'counterTime:timeT|bitOut'
+Slack : -119.983
+TNS   : -3626.471
+
+Type  : Slow Model Setup 'clock'
+Slack : -37.387
+TNS   : -1134.292
+
+Type  : Slow Model Hold 'clock'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'counterTime:timeT|bitOut'
+Slack : 1.472
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'counterTime:timeT|bitOut'
+Slack : -2.000
+TNS   : -175.000
+
+Type  : Slow Model Minimum Pulse Width 'clock'
+Slack : -1.380
+TNS   : -33.380
+
+Type  : Fast Model Setup 'counterTime:timeT|bitOut'
+Slack : -54.321
+TNS   : -1649.326
+
+Type  : Fast Model Setup 'clock'
+Slack : -16.866
+TNS   : -512.710
+
+Type  : Fast Model Hold 'clock'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'counterTime:timeT|bitOut'
+Slack : 0.646
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'counterTime:timeT|bitOut'
+Slack : -2.000
+TNS   : -175.000
+
+Type  : Fast Model Minimum Pulse Width 'clock'
+Slack : -1.380
+TNS   : -33.380
+
+------------------------------------------------------------
